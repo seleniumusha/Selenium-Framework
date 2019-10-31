@@ -92,7 +92,6 @@ public class RTTC_014 {
 		productPOM.sendPrice("515");
 		
 		productPOM.clickFilterbttn(); 
-		screenShot.captureScreenShot("RTTC14_4");
-		
+		screenShot.captureScreenShot("RTTC14_4");		
 	}
 }

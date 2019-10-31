@@ -4,9 +4,9 @@
 <suite name = "Sample test Suite">
    <test name = "Sample test">
       <classes>
-        	<class name = "com.training.sanity.tests.RTTC_013" />
-      		<class name = "com.training.sanity.tests.RTTC_014" />
-      		<class name = "com.training.sanity.tests.RTTC_015" />
+        	<class name = "com.training.sanity.tests.RTTC_043" />
+      		<class name = "com.training.sanity.tests.RTTC_044" />
+      		<class name = "com.training.sanity.tests.RTTC_045" />
       </classes>
    </test>
 </suite>	

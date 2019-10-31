@@ -21,12 +21,26 @@ public class ProductPOM {
 	private WebElement prodname;
 	
 	@FindBy(xpath="//button[@id='button-filter']")
-	private WebElement filter; 
+	private WebElement filter;
 	
 	@FindBy(xpath="//input[@id='input-price']")
 	private WebElement price;
 	
+	@FindBy(xpath="//tr[1]//td[8]//a[1]//i[1]")
+	private WebElement Edit;
 	
+	@FindBy(xpath="//a[contains(text(),'Data')]")
+	private WebElement Data;
+	
+	@FindBy(xpath="//input[@id='input-quantity']")
+	private WebElement Quantity;
+	
+	@FindBy(xpath="//i[@class='fa fa-save']")
+	private WebElement Save;
+	
+	@FindBy(xpath="//tr[2]//td[1]//input[1]")
+	private WebElement checkbox2; 
+		
 	public void clickProduct() {
 		this.product.click();
 	}
@@ -45,5 +59,20 @@ public class ProductPOM {
 		this.price.clear();
 		this.price.sendKeys(price);
 	}
-	
+	public void clickeditbttn() {
+		this.Edit.click();
+	}
+	public void clickdatabttn() {
+		this.Data.click();
+	}
+	public void sendquantity(String Quantity) {
+		this.Quantity.clear();
+		this.Quantity.sendKeys(Quantity);
+	}
+	public void clicksavebttn() {
+		this.Save.click();
+	}
+	public void checkbttn2() {
+		this.checkbox2.click(); 
+	}
 }

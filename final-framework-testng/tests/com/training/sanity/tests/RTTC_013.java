@@ -49,7 +49,7 @@ public class RTTC_013 {
 		categoryPOM = new CategoryPOM(driver); 
 		baseUrl = properties.getProperty("baseURL");
 		screenShot = new ScreenShot(driver); 
-		// open the browser 
+		// open the browser
 		driver.get(baseUrl);
 		
 	}

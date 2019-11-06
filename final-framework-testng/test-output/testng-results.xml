@@ -1,105 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="13" passed="13">
+<testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Sample test Suite" duration-ms="42779" started-at="2019-10-23T13:38:23Z" finished-at="2019-10-23T13:39:06Z">
+  <suite name="Default suite" duration-ms="74013" started-at="2019-11-05T13:04:06Z" finished-at="2019-11-05T13:05:20Z">
     <groups>
     </groups>
-    <test name="Sample test" duration-ms="42779" started-at="2019-10-23T13:38:23Z" finished-at="2019-10-23T13:39:06Z">
-      <class name="com.training.sanity.tests.RTTC_015">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.RTTC_015@4b9e13df]" name="setUp" is-config="true" duration-ms="5198" started-at="2019-10-23T19:08:49Z" finished-at="2019-10-23T19:08:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="LoginTest()[pri:0, instance:com.training.sanity.tests.RTTC_015@4b9e13df]" name="LoginTest" duration-ms="2014" started-at="2019-10-23T19:08:54Z" finished-at="2019-10-23T19:08:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginTest -->
-        <test-method status="PASS" signature="ProdTest()[pri:1, instance:com.training.sanity.tests.RTTC_015@4b9e13df]" name="ProdTest" duration-ms="1305" started-at="2019-10-23T19:08:56Z" depends-on-methods="com.training.sanity.tests.RTTC_015.LoginTest" finished-at="2019-10-23T19:08:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ProdTest -->
-        <test-method status="PASS" signature="CreateProdTest()[pri:2, instance:com.training.sanity.tests.RTTC_015@4b9e13df]" name="CreateProdTest" duration-ms="3701" started-at="2019-10-23T19:08:58Z" depends-on-methods="com.training.sanity.tests.RTTC_015.ProdTest" finished-at="2019-10-23T19:09:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreateProdTest -->
-        <test-method status="PASS" signature="SearchProdTest()[pri:3, instance:com.training.sanity.tests.RTTC_015@4b9e13df]" name="SearchProdTest" duration-ms="760" started-at="2019-10-23T19:09:01Z" finished-at="2019-10-23T19:09:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SearchProdTest -->
-        <test-method status="PASS" signature="DeleteTest()[pri:4, instance:com.training.sanity.tests.RTTC_015@4b9e13df]" name="DeleteTest" duration-ms="1905" started-at="2019-10-23T19:09:02Z" finished-at="2019-10-23T19:09:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DeleteTest -->
-      </class> <!-- com.training.sanity.tests.RTTC_015 -->
-      <class name="com.training.sanity.tests.RTTC_013">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.RTTC_013@18be83e4]" name="setUpBeforeClass" is-config="true" duration-ms="16" started-at="2019-10-23T19:08:23Z" finished-at="2019-10-23T19:08:23Z">
+    <test name="Default test" duration-ms="74013" started-at="2019-11-05T13:04:06Z" finished-at="2019-11-05T13:05:20Z">
+      <class name="com.training.sanity.tests.RTTC_074">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.RTTC_074@635eaaf1]" name="setUpBeforeClass" is-config="true" duration-ms="19" started-at="2019-11-05T18:34:06Z" finished-at="2019-11-05T18:34:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.RTTC_014@cb5822]" name="setUpBeforeClass" is-config="true" duration-ms="0" started-at="2019-10-23T19:08:23Z" finished-at="2019-10-23T19:08:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.RTTC_015@4b9e13df]" name="setUpBeforeClass" is-config="true" duration-ms="0" started-at="2019-10-23T19:08:23Z" finished-at="2019-10-23T19:08:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.RTTC_013@18be83e4]" name="setUp" is-config="true" duration-ms="6712" started-at="2019-10-23T19:08:23Z" finished-at="2019-10-23T19:08:30Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.RTTC_074@635eaaf1]" name="setUp" is-config="true" duration-ms="17972" started-at="2019-11-05T18:34:06Z" finished-at="2019-11-05T18:34:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="LoginTest()[pri:1, instance:com.training.sanity.tests.RTTC_013@18be83e4]" name="LoginTest" duration-ms="2298" started-at="2019-10-23T19:08:30Z" finished-at="2019-10-23T19:08:32Z">
+        <test-method status="FAIL" signature="LoginTest()[pri:0, instance:com.training.sanity.tests.RTTC_074@635eaaf1]" name="LoginTest" duration-ms="54162" started-at="2019-11-05T18:34:24Z" finished-at="2019-11-05T18:35:18Z">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=78.0.3904.70)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-L8HT3HT', ip: '9.195.165.140', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.70, chrome: {chromedriverVersion: 78.0.3904.11 (eaaae9de6b899..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62551}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b64c60003ace62497fc6e72bcfb54443]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=78.0.3904.70)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-L8HT3HT', ip: '9.195.165.140', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.70, chrome: {chromedriverVersion: 78.0.3904.11 (eaaae9de6b899..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62551}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b64c60003ace62497fc6e72bcfb54443
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.training.pom.SearchPOM.SelItem(SearchPOM.java:22)
+	at com.training.sanity.tests.RTTC_074.LoginTest(RTTC_074.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method status="PASS" signature="categoryTest()[pri:2, instance:com.training.sanity.tests.RTTC_013@18be83e4]" name="categoryTest" duration-ms="877" started-at="2019-10-23T19:08:32Z" depends-on-methods="com.training.sanity.tests.RTTC_013.LoginTest" finished-at="2019-10-23T19:08:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- categoryTest -->
-        <test-method status="PASS" signature="AddcatTest()[pri:3, instance:com.training.sanity.tests.RTTC_013@18be83e4]" name="AddcatTest" duration-ms="3864" started-at="2019-10-23T19:08:33Z" finished-at="2019-10-23T19:08:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AddcatTest -->
-        <test-method status="PASS" signature="deleteCatTest()[pri:4, instance:com.training.sanity.tests.RTTC_013@18be83e4]" name="deleteCatTest" duration-ms="1351" started-at="2019-10-23T19:08:37Z" depends-on-methods="com.training.sanity.tests.RTTC_013.AddcatTest" finished-at="2019-10-23T19:08:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteCatTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.RTTC_013@18be83e4]" name="tearDown" is-config="true" duration-ms="671" started-at="2019-10-23T19:09:04Z" finished-at="2019-10-23T19:09:05Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.RTTC_074@635eaaf1]" name="tearDown" is-config="true" duration-ms="1832" started-at="2019-11-05T18:35:18Z" finished-at="2019-11-05T18:35:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.RTTC_014@cb5822]" name="tearDown" is-config="true" duration-ms="718" started-at="2019-10-23T19:09:05Z" finished-at="2019-10-23T19:09:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.RTTC_015@4b9e13df]" name="tearDown" is-config="true" duration-ms="799" started-at="2019-10-23T19:09:05Z" finished-at="2019-10-23T19:09:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.RTTC_013 -->
-      <class name="com.training.sanity.tests.RTTC_014">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.RTTC_014@cb5822]" name="setUp" is-config="true" duration-ms="4442" started-at="2019-10-23T19:08:39Z" finished-at="2019-10-23T19:08:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="LoginTest()[pri:1, instance:com.training.sanity.tests.RTTC_014@cb5822]" name="LoginTest" duration-ms="1841" started-at="2019-10-23T19:08:43Z" finished-at="2019-10-23T19:08:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginTest -->
-        <test-method status="PASS" signature="CateTest()[pri:2, instance:com.training.sanity.tests.RTTC_014@cb5822]" name="CateTest" duration-ms="1280" started-at="2019-10-23T19:08:45Z" depends-on-methods="com.training.sanity.tests.RTTC_014.LoginTest" finished-at="2019-10-23T19:08:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CateTest -->
-        <test-method status="PASS" signature="ProdTest()[pri:3, instance:com.training.sanity.tests.RTTC_014@cb5822]" name="ProdTest" duration-ms="1555" started-at="2019-10-23T19:08:46Z" finished-at="2019-10-23T19:08:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ProdTest -->
-        <test-method status="PASS" signature="PriceTest()[pri:4, instance:com.training.sanity.tests.RTTC_014@cb5822]" name="PriceTest" duration-ms="1447" started-at="2019-10-23T19:08:48Z" depends-on-methods="com.training.sanity.tests.RTTC_014.ProdTest" finished-at="2019-10-23T19:08:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PriceTest -->
-      </class> <!-- com.training.sanity.tests.RTTC_014 -->
-    </test> <!-- Sample test -->
-  </suite> <!-- Sample test Suite -->
+      </class> <!-- com.training.sanity.tests.RTTC_074 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

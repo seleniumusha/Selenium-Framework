@@ -1,3 +1,4 @@
+//Please change Base URL to admin url before running this script
 package com.training.sanity.tests;
 
 import org.testng.annotations.Test;

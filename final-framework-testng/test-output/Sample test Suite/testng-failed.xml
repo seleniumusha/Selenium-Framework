@@ -3,14 +3,29 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Sample test Suite]">
   <test name="Sample test(failed)">
     <classes>
-      <class name="com.training.regression.tests.LoginDBTest">
+      <class name="com.training.sanity.tests.RTTC_043">
+        <methods>
+          <include name="setUpBeforeClass"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.training.sanity.tests.RTTC_043 -->
+      <class name="com.training.sanity.tests.RTTC_044">
         <methods>
           <include name="tearDown"/>
-          <include name="loginDBTest"/>
           <include name="setUp"/>
           <include name="setUpBeforeClass"/>
         </methods>
-      </class> <!-- com.training.regression.tests.LoginDBTest -->
+      </class> <!-- com.training.sanity.tests.RTTC_044 -->
+      <class name="com.training.sanity.tests.RTTC_045">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUpBeforeClass"/>
+          <include name="CreateSearchTest"/>
+          <include name="CreateOrder1Test"/>
+        </methods>
+      </class> <!-- com.training.sanity.tests.RTTC_045 -->
     </classes>
   </test> <!-- Sample test(failed) -->
 </suite> <!-- Failed suite [Sample test Suite] -->

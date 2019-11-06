@@ -16,8 +16,7 @@ public class CategoryPOM {
 	
 	@FindBy(xpath="//a[contains(text(),'Categories')]")
 	private WebElement category; 
-	
-	
+		
 	@FindBy(xpath="//i[@class='fa fa-plus']")
 	private WebElement addcategory;
 	
@@ -88,6 +87,18 @@ public class CategoryPOM {
 	public void clickdelete() {
 		this.delete.click(); 
 	}
-
-
+	@FindBy(xpath="//input[@id='input-price']")
+	private WebElement price;
+	
+	public void sendPrice(String price) {
+		this.price.clear();
+		this.price.sendKeys(price);
+	}
+	@FindBy(xpath="//a[contains(text(),'Links')]")
+	private WebElement link;
+	
+	public void clickLink() {
+		this.link.click();
+	}
+	
 }

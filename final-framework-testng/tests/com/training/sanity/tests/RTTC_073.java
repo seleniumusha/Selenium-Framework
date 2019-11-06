@@ -101,5 +101,4 @@ public class RTTC_073 {
 		productPOM.clicksavebttn();
 		screenShot.captureScreenShot("RTTC73_4");
 	}
-	
 }

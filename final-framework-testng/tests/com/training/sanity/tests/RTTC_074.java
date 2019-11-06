@@ -170,7 +170,6 @@ public class RTTC_074 {
 		driver.findElement(By.xpath("//button[@id='button-filter']")).click();
 		screenShot.captureScreenShot("RTTC74_6");
 	}
-	
 }
 
 	
